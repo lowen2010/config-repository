@@ -6,7 +6,7 @@ spring:
       enabled: true
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.0.5:3306/dev?autoReconnect=true&maxReconnects=10&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&transformedBitIsBoolean=true&zeroDateTimeBehavior=convertToNull&serverTimezone=PRC&useSSL=false&useAffectedRows=true
+    url: jdbc:mysql://192.168.0.5:3306/dev-upd?autoReconnect=true&maxReconnects=10&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&transformedBitIsBoolean=true&zeroDateTimeBehavior=convertToNull&serverTimezone=PRC&useSSL=false&useAffectedRows=true
     username: block
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver

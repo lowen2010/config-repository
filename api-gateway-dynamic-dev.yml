@@ -4,5 +4,5 @@ zuul:
       path: /api-a/**
       serviceId: user-service
     api-b:
-      path: /api-b/**
+      path: /api-c/**
       serviceId: user-fegin-consumer
